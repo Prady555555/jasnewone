@@ -281,7 +281,7 @@
 .service-three {
   position: relative;
   display: block;
-  padding: 60px 0 90px;
+  padding: 60px 0 0px;
   z-index: 1;
 }
 
@@ -438,6 +438,39 @@
 }
 
 .service-three__read-more {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  margin-top: 15px; /* Adds space above the "Read More" link */
+}
+
+.service-three__read-more a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between the text and the icon */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.service-three__read-more a:hover {
+  /* color: #ffc949;  */
+  color: #0f214c;
+
+  /* Changes text color to #ffc949 on hover */
+}
+
+.service-three__read-more .icon-arrow-right {
+  font-size: 14px; /* Adjust the size of the arrow */
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.service-three__read-more a:hover .icon-arrow-right {
+  transform: translateX(5px); /* Moves the arrow to the right on hover */
+}
+
+/* .service-three__read-more {
   position: relative;
   display: inline-block;
 }
@@ -460,7 +493,7 @@
 
 .service-three__read-more a span {
   color: var(--erepair-base);
-}
+} */
 
 /*--------------------------------------------------------------
 # Services Four
@@ -890,3 +923,12 @@
 /*--------------------------------------------------------------
 # End
 --------------------------------------------------------------*/
+
+/* pradeep css */
+
+.below-section-two {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: gray;
+  font-weight: 500;
+}

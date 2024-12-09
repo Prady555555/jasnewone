@@ -1,23 +1,4 @@
- <style>
-     .whats-app {
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    bottom: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 45px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-    left: 15px;
-}
-
-.whatsappmy-floa {
-    margin-top: 16px;
-}
- </style>
+ 
  
  <a  class="whats-app" href="whatsapp://send?abid=+917028715057&text=Hi%2C%20JAS Engineering!" target="_blank">
     <i class="fab fa-whatsapp whatsappmy-float mt-1"></i>

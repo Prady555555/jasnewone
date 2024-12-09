@@ -61,9 +61,9 @@
                                             <a href="services.php">Services </a>
                                         </li>
 
-                                        <li>
-                                            <a href="carrier.php">Join us </a>
-                                        </li>
+                                        <!-- <li>
+                                            <a href="carrier.php">carrier </a>
+                                        </li> -->
 
                                         <li>
                                             <a href="contact.php">Blogs </a>
@@ -89,7 +89,7 @@
                                         </div>
                                     </div>
                                     <div class="main-menu-two__btn-box">
-                                        <a href="contact.html" class="main-menu-two__btn thm-btn">Get a Proposal</a>
+                                        <a href="contact.php" class="main-menu-two__btn thm-btn">Contact us</a>
                                     </div>
                                 </div>
                             </div>

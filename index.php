@@ -366,6 +366,8 @@ Foundations & Erection Works.</p>
 
  <?php include ('common/scroll.php'); ?>
 
+ <hr>
+
 
 
 
@@ -389,8 +391,16 @@ Foundations & Erection Works.</p>
                         <span class="section-title-two__tagline">Our Project</span>
                     </div>
                     <div class="section-title-two__title-box sec-title-animation animation-style1">
-                        <h2 class="section-title-two__title title-animation">We Have Completed Our<br> MEP, Solar EPC
-                            Project</h2>
+                        <!-- <h2 class="section-title-two__title title-animation">We Have Completed Our<br> MEP, Solar EPC
+                            Project</h2> -->
+                            <!-- <h3 class="below-section-two">We Have Completed Our MEP, Solar EPC
+                            Project</h3> -->
+                            <div class="section-title-two__title-box sec-title-animation animation-style2">
+                            <h2 class="section-title-two__title title-animation">
+                                We Have Completed Our MEP, Solar EPC
+                            Project
+                            </h2>
+                        </div>
                     </div>
                 </div>
                 <div class="project-two__filter-box">
@@ -490,13 +500,24 @@ Foundations & Erection Works.</p>
             </div>
         </section>
         <!--Project Two End -->
+<hr>
 
+ <?php include ('common/onGoingLayout.php') ?>
+
+               
 
          <section class="contact-and-counter">
+         
             <div class="contact-and-counter__inner">
                 <div class="container">
+                    <div class="contact-request-center">
+<h3 class="contact-one__form-title">Request A Demo</h3>
+                    </div>
+                    
                     <div class="contact-one">
+                        
                         <div class="row">
+                             
                             <div class="col-xl-6 col-lg-6">
                                 <div class="contact-one__left wow fadeInLeft" data-wow-delay="300ms">
                                     <div class="contact-one__img">
@@ -506,7 +527,7 @@ Foundations & Erection Works.</p>
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="contact-one__right wow fadeInRight" data-wow-delay="400ms">
-                                    <h3 class="contact-one__form-title">Request A Free Quote</h3>
+                                   
                                     <form class="contact-form-validated contact-one__form"
                                         action="https://unicktheme.com/erepair/main-html/assets/inc/sendemail.php" method="post" novalidate="novalidate">
                                         <div class="row">
@@ -531,19 +552,21 @@ Foundations & Erection Works.</p>
                                                 <div class="contact-one__input-box">
                                                     <div class="select-box">
                                                         <select class="selectmenu wide">
-                                                            <option selected="selected">Service Tyte</option>
-                                                            <option>Type Of Service 01</option>
-                                                            <option>Type Of Service 02</option>
-                                                            <option>Type Of Service 03</option>
-                                                            <option>Type Of Service 04</option>
-                                                            <option>Type Of Service 05</option>
+                                                            <option selected="selected">Service Type</option>
+                                                           
+                                                            <option>Electrical Services</option>
+                                                            <option>Mechanical Services</option>
+                                                            <option>Civil Services</option>
+                                                              <option>Consultency Services</option>
+                                                            <option>Other Services</option>
+                                                           
                                                         </select>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-xl-12">
                                                 <div class="contact-one__btn-box">
-                                                    <button type="submit" class="thm-btn contact-one__btn">Submit
+                                                    <button type="submit" class="contact-theme__btn">Submit
                                                         Appointment</button>
                                                 </div>
                                             </div>
@@ -623,96 +646,7 @@ Foundations & Erection Works.</p>
         </section>
 
         <!--Team One Start -->
-        <section class="team-one">
-            <div class="container">
-                <div class="team-one__top">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-7">
-                            <div class="section-title-two text-left">
-                                <div class="section-title-two__tagline-box">
-                                    <span class="section-title-two__tagline">Best Team</span>
-                                </div>
-                                <div class="section-title-two__title-box sec-title-animation animation-style2">
-                                    <h2 class="section-title-two__title title-animation">Meet Our Professional<br> Team
-                                        Member
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-5 wow fadeInRight" data-wow-delay="100ms">
-                            <p class="team-one__text">The wise man therefore always holds in these matters to this
-                                principle of selection. He rejects pleasures to secure other greater pleasures, or else
-                                he endures pains to avoid worse pains to the selection point.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="100ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img-box">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-1.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__title"><a href="team-details.php">Wade Warren</a></h3>
-                                    <p class="team-one__sub-title">Electrician</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                        <a href="#"><span class="icon-xpa"></span></a>
-                                        <a href="#"><span class="icon-link-in"></span></a>
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img-box">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-2.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__title"><a href="team-details.php">Darrell Steward</a></h3>
-                                    <p class="team-one__sub-title">Marketing Manager</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                        <a href="#"><span class="icon-xpa"></span></a>
-                                        <a href="#"><span class="icon-link-in"></span></a>
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                    <!--Team One Single Start-->
-                    <div class="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="300ms">
-                        <div class="team-one__single">
-                            <div class="team-one__img-box">
-                                <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-3.jpg" alt="">
-                                </div>
-                                <div class="team-one__content">
-                                    <h3 class="team-one__title"><a href="team-details.php">Warren Wade </a></h3>
-                                    <p class="team-one__sub-title">Co-founder</p>
-                                    <div class="team-one__social">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                        <a href="#"><span class="icon-xpa"></span></a>
-                                        <a href="#"><span class="icon-link-in"></span></a>
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Team One Single End-->
-                </div>
-            </div>
-        </section>
+        
         <!--Team One End -->
 
      
@@ -808,7 +742,13 @@ Foundations & Erection Works.</p>
             </div>
         </section>
         <!--FAQ One End -->
+        
+<hr>
 
+        <?php include ('common/brand.php'); ?>
+<hr>
+
+ <?php include ('common/testimonals.php'); ?>
         <!--Blog Two Start -->
         <section class="blog-two">
             <div class="container">
@@ -901,69 +841,14 @@ Foundations & Erection Works.</p>
                 </div>
             </div>
         </section>
-        <!--Blog Two End -->
 
-        <!--Brand Two Start-->
-        <section class="brand-two">
-            <div class="container">
-                <div class="brand-two__inner">
-                    <div class="brand-two__carousel owl-theme owl-carousel">
-                        <!--Brand Two Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client1.png" alt="">
-                            </div>
-                        </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client2.png" alt="">
-                            </div>
-                        </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client3.png" alt="">
-                            </div>
-                        </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client4.png" alt="">
-                            </div>
-                        </div>
-                        <!--Brand One Single-->
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client5.png" alt="">
-                            </div>
-                        </div>
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client6.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client7.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="brand-one__single">
-                            <div class="brand-one__img">
-                                <img src="assets/images/brand/client8.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- If we need navigation buttons -->
-                </div>
-            </div>
-        </section>
-        <!--Brand Two End-->
-         <?php include ('common/footer.php') ?>
         
-
+        <!--Blog Two End -->
+  <?php include ('common/footer.php') ?>
+        
+       
+        
+        
     </div>
     
     

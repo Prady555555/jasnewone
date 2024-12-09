@@ -24,7 +24,7 @@
 
         .glide__slide {
             flex: 0 0 auto;
-            width: 300px; /* Slide width */
+            width: 1000px; /* Slide width */
             text-align: center;
             box-sizing: border-box;
             padding: 10px;
@@ -79,9 +79,10 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 15px;
             width: 100%;
+
             text-align: center;
             position: relative;
-            gap:15px;
+            gap:40px;
         }
 
         /* Small Image Styling */
@@ -136,8 +137,8 @@
         }
 
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            
+            
         }
 
         .section-title-two {
@@ -148,6 +149,10 @@
             font-size: 2em;
             color: #333;
         }
+        .service-h3-title{
+            padding-top: 20px;
+        }
+   
     </style>
 </head>
 <body>
@@ -155,8 +160,15 @@
 <section class="service-three">
     <div class="container">
         <div class="section-title-two text-center">
-            <h2 class="section-title-two__title">Our Services</h2>
-            <p>We focus on delivering peace of mind and quality services to our clients.</p>
+            <div class="section-title-two__tagline-box">
+                                    <span class="section-title-two__tagline">Our Services</span>
+                                </div>
+            <!-- <h3 class="below-section-two">We focus on delivering peace of mind and quality services to our clients.</h3> -->
+              <div class="section-title-two__title-box sec-title-animation animation-style2">
+                            <h2 class="section-title-two__title title-animation">
+                                We focus on delivering peace of mind and quality services to our clients
+                            </h2>
+                        </div>
         </div>
 
         <div class="glide">
@@ -172,9 +184,12 @@
                             <div class="service-three__icon">
                                     <span class="icon-ac1"></span>
                                 </div>
-                            <h3 class="service-three__title"><a href="services.php">Mechanical Services</a></h3>
+                            <h3 class="service-three__title service-h3-title"><a href="services.php">Mechanical Services</a></h3>
                             <p class="service-three__text">Comprehensive mechanical services for your needs. Trust our expertise to handle all aspects of mechanical engineering with precision and care.</p>
-                            <a href="services.php" class="service-three__read-more">Read More</a>
+                             <div class="service-three__read-more">
+                                    <a href="services.php">Read More<span
+                                            class="icon-arrow-right"></span></a>
+                                </div>
                         </div>
                     </li>
 
@@ -187,9 +202,12 @@
                             <div class="service-three__icon">
                                     <span class="icon-ac1"></span>
                                 </div>
-                            <h3 class="service-three__title"><a href="services.php">Electrical Services</a></h3>
+                            <h3 class="service-three__title service-h3-title"><a href="services.php">Electrical Services</a></h3>
                             <p class="service-three__text">Expert solutions for all electrical systems, ensuring your safety and efficiency with cutting-edge technology and highly skilled professionals.</p>
-                            <a href="services.php" class="service-three__read-more">Read More</a>
+                              <div class="service-three__read-more">
+                                    <a href="services.php">Read More<span
+                                            class="icon-arrow-right"></span></a>
+                                </div>
                         </div>
                     </li>
  <!-- Slide 3 -->
@@ -201,9 +219,12 @@
                          <div class="service-three__icon">
                                     <span class="icon-ac1"></span>
                                 </div>
-                            <h3 class="service-three__title"><a href="services.php">Civil Services</a></h3>
+                            <h3 class="service-three__title service-h3-title"><a href="services.php">Civil Services</a></h3>
                             <p class="service-three__text">Comprehensive mechanical services for your needs. Trust our expertise to handle all aspects of mechanical engineering with precision and care.</p>
-                            <a href="services.php" class="service-three__read-more">Read More</a>
+                              <div class="service-three__read-more">
+                                    <a href="services.php">Read More<span
+                                            class="icon-arrow-right"></span></a>
+                                </div>
                         </div>
                     </li>
 <!-- Slide 4-->
@@ -215,9 +236,30 @@
                            <div class="service-three__icon">
                                     <span class="icon-ac1"></span>
                                 </div>
-                            <h3 class="service-three__title"><a href="services.php">Consultency Services</a></h3>
+                            <h3 class="service-three__title service-h3-title"><a href="services.php">Consultency Services</a></h3>
                             <p class="service-three__text">Comprehensive mechanical services for your needs. Trust our expertise to handle all aspects of mechanical engineering with precision and care.</p>
-                            <a href="services.php" class="service-three__read-more">Read More</a>
+                              <div class="service-three__read-more">
+                                    <a href="services.php">Read More<span
+                                            class="icon-arrow-right"></span></a>
+                                </div>
+                        </div>
+                    </li>
+
+<!-- Slide 5-->
+                    <li class="glide__slide">
+                        <div class="main-img-container">
+                            <img src="assets/images/services/services-2-1.jpg" alt="Mechanical Services">
+                        </div>
+                        <div class="card">
+                           <div class="service-three__icon">
+                                    <span class="icon-ac1"></span>
+                                </div>
+                            <h3 class="service-three__title service-h3-title"><a href="services.php">Other Services</a></h3>
+                            <p class="service-three__text">Comprehensive mechanical services for your needs. Trust our expertise to handle all aspects of mechanical engineering with precision and care.</p>
+                              <div class="service-three__read-more">
+                                    <a href="services.php">Read More<span
+                                            class="icon-arrow-right"></span></a>
+                                </div>
                         </div>
                     </li>
                 </ul>

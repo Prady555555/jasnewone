@@ -48,6 +48,10 @@
     <link rel="stylesheet" href="assets/css/module-css/team.css" />
     <link rel="stylesheet" href="assets/css/module-css/faq.css" />
 
+
+    <!-- pradeep-css -->
+      <link rel="stylesheet" href="assets/css/module-css/pradeep-css/onGoingLayout.css" />
+
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />

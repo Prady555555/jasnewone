@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
 # Contact One
 --------------------------------------------------------------*/
+
+.contact-title-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
 .contact-and-counter {
   position: relative;
   display: block;
@@ -10,11 +18,11 @@
 .contact-and-counter__inner {
   position: relative;
   display: block;
-  max-width: 1410px;
-  margin: 0 auto;
-  background-color: var(--erepair-black);
-  border-radius: 20px;
-  padding: 120px 0 120px;
+  /* margin: 0 0; */
+  width: 100%;
+  background-color: #00214b;
+  /* border-radius: 20px; */
+  padding: 30px 0 120px;
 }
 
 .contact-one {
@@ -37,7 +45,7 @@
 }
 
 .contact-one__img img {
-  width: 100%;
+  width: 80%;
   border-radius: 20px;
 }
 
@@ -49,6 +57,13 @@
   margin-right: 60px;
 }
 
+.contact-request-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .contact-one__form-title {
   font-size: 48px;
   font-weight: 600;
@@ -56,7 +71,7 @@
   letter-spacing: -1.44px;
   color: var(--erepair-white);
   text-transform: capitalize;
-  margin-bottom: 29px;
+  margin-bottom: 40px;
 }
 
 .contact-one__form {
